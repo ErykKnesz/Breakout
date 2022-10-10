@@ -7,9 +7,9 @@ class Paddle(Turtle):
         super().__init__()
         self.shape("square")
         self.color("white")
-        self.shapesize(stretch_wid=2, stretch_len=6)
+        self.shapesize(stretch_len=6)
         self.penup()
-        self.setpos(0, -300)
+        self.setpos(0, -260)
 
     def go_left(self):
         new_x = self.xcor() - 20
